@@ -6,16 +6,673 @@
     <title>Forms</title>
   </head>
   <body>
-    <section border="2">
+    <h2 align="center">Task 1</h2>
+    <fieldset align="center">
+      <legend align="center">Admin login page</legend>
       <h1>Admin Login Page</h1>
       <label for="username">Username: </label>
-      <input type="text" name="username" id="username" placeholder="Enter the username"/>
+      <input
+        type="text"
+        name="username"
+        id="username"
+        placeholder="Enter the username"
+      />
       <br /><br />
       <label for="password">Password: </label>
-      <input type="password" name="password" id="password" placeholder="Enter the password"/>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="Enter the password"
+      />
       <br /><br />
-      <input type="button" name="submit" id="submit" value="Submit"/>
-      <input type="button" name="reset" id="reset" value="Reset"/>
-    </section>
+      <input type="button" name="submit" id="submit" value="Submit" />
+      <input type="button" name="reset" id="reset" value="Reset" />
+    </fieldset>
+    <br /><br />
+    <hr />
+    <br /><br />
+    <h2>Task 2</h2>
+    <fieldset>
+      <h1>Pizza Order Form</h1>
+      <label for="firstName">First Name: </label>
+      <input type="firstName" name="firstName" id="firstName" />
+      <br />
+      <br />
+      <label for="lastName">Last Name: </label>
+      <input type="text" name="lastName" id="lastName" />
+      <br />
+      <br />
+      <label for="emailAddress">Email Address: </label>
+      <input type="email" name="emailAddress" id="emailAddress" />
+      <br />
+      <br />
+      <label for="contactNumber">Contact Number: </label>
+      <input type="number" name="contactNumber" id="contactNumber" />
+      <br />
+      <br />
+      <label for="preferredDeliveryDate">Preferred delivery date: </label>
+      <input
+        type="date"
+        name="preferredDeliveryDate"
+        id="preferredDeliveryDate"
+      />
+      <br />
+      <br />
+      <label for="size">Size: </label>
+      <br />
+      <span>Small</span>
+      <input type="radio" name="size" id="small" value="small" />
+      <span>Medium</span>
+      <input type="radio" name="size" id="medium" value="medium" />
+      <span>Large</span>
+      <input type="radio" name="size" id="large" value="large" />
+      <br /><br />
+
+      <label for="flavor">Flavor: </label>
+      <br />
+      <input
+        type="checkbox"
+        name="hawaiian(php150.00)"
+        value="hawaiian(php150.00)"
+      />
+      <span>Hawaiian (Php 150.00)</span>
+      <select name="" id="">
+        <option value=""></option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+      </select>
+      <br />
+      <input
+        type="checkbox"
+        name="pepperoni(php140.00)"
+        value="pepperoni(php140.00)"
+      />
+      <span>Pepperoni (Php 140.00)</span>
+      <select name="" id="">
+        <option value=""></option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+      </select>
+      <br />
+      <input
+        type="checkbox"
+        name="vegetable(php130.00)"
+        value="vegetable(php130.00)"
+      />
+      <span>Vegetable (Php 130.00)</span>
+      <select name="" id="">
+        <option value=""></option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+      </select>
+      <br /><br />
+      <label for="creditCardNumber">Credit Card Number: </label>
+      <input type="number" name="creditCardNumber" id="creditCardNumber" />
+      <br /><br />
+      <label for="pin">Pin: </label>
+      <input type="number" name="pin" id="pin" />
+      <br /><br />
+      <label for="additionalNote">Additional Note: </label>
+      <br />
+      <textarea name="additionalNote" id="additionalNote"></textarea>
+      <br /><br />
+      <button>Submit Order</button>
+      <br /><br />
+    </fieldset>
+
+    <br /><br />
+    <hr />
+    <br /><br />
+    <h2 align="center">Task 3</h2>
+    <fieldset>
+      <h1 align="center">Registration Form</h1>
+      <p align="center">
+        Of course, all submitted information is kept in the strictest
+        confidance.<br />
+        You always retain control of your information with D.W. Simpson & Co.<br />
+        <b>Our services are always at no cost to you.</b>
+      </p>
+      <label for="name">Name: </label>
+      <input type="text" name="name" id="name" />
+      <br /><br />
+      <label for="address">Address: </label>
+      <input type="text" name="address" id="address" />
+      <br /><br />
+      <label for="city">City: </label>
+      <input type="text" name="city" id="city" />
+      <label for="state">State/Province: </label>
+      <input type="text" name="state" id="state" />
+      <br /><br />
+      <label for="zipCode">Zip Code: </label>
+      <input type="number" name="zipCode" id="zipCode" />
+      <br /><br />
+      <label for="country">Country: </label>
+      <input type="text" name="country" id="country" />
+      <br /><br />
+      <label for="phoneH">Phone: (H)</label>
+      <input type="number" name="phoneH" id="phoneH" />
+      <label for="fax">Fax: </label>
+      <input type="text" name="fax" id="fax" />
+      <br /><br />
+      <label for="phoneW">Phone: (W)</label>
+      <input type="number" name="phoneW" id="phoneW" />
+      <label for="phoneW">(If able to speak freely)</label>
+      <br /><br />
+      <label for="email">Email: </label>
+      <input type="email" name="email" id="email" />
+      <br /><br />
+      <label for="companyName">Compay Name: </label>
+      <input type="text" name="companyName" id="companyName" />
+      <label for="companyName">(Optional)</label>
+      <br /><br />
+      <label for="desiredRegion">Desired Reagion: </label>
+      <select name="desiredRegion" id="desiredRegion">
+        <option value=""></option>
+        <option value="other">other</option>
+      </select>
+      <label for="other">Other: </label>
+      <input type="text" name="other" id="other" />
+      <br /><br />
+      <label for="professionalDesignationsEarned"
+        >Professional Designations Earned:
+      </label>
+      <br />
+      <input
+        type="checkbox"
+        name="collageStudent"
+        id="collageStudent"
+        value="collageStudent"
+      />
+      <label for="collageStudent" name="collageStudent" id="collageStudent"
+        >Collage Student</label
+      >
+      <input
+        type="checkbox"
+        name="actuarialStudent"
+        id="actuarialStudent"
+        value="actuarialStudent"
+      />
+      <label
+        for="actuarialStudent"
+        name="actuarialStudent"
+        id="actuarialStudent"
+        >Actuarials Student</label
+      >
+      <input type="checkbox" name="acas" id="acas" value="acas" />
+      <label for="acas" name="acas" id="acas">ACAS</label>
+
+      <input type="checkbox" name="fcas" id="fcas" value="fcas" />
+      <label for="fcas" name="fcas" id="fcas">FCAS</label>
+
+      <input type="checkbox" name="asa" id="asa" value="asa" />
+      <label for="asa" name="asa" id="asa">ASA</label>
+
+      <input type="checkbox" name="fsa" id="fsa" value="fsa" />
+      <label for="fsa" name="fsa" id="fsa">FSA</label>
+
+      <input type="checkbox" name="ea" id="ea" value="ea" />
+      <label for="ea" name="ea" id="ea">EA</label>
+
+      <input type="checkbox" name="cfa" id="cfa" value="cfa" />
+      <label for="cfa" name="cfa" id="cfa">CFA</label>
+
+      <input type="checkbox" name="mba" id="mba" value="mba" />
+      <label for="mba" name="mba" id="mba">MBA</label>
+
+      <input type="checkbox" name="maaa" id="maaa" value="maaa" />
+      <label for="maaa" name="maaa" id="maaa">MAAA</label>
+
+      <input type="checkbox" name="fia" id="fia" value="fia" />
+      <label for="fia" name="fia" id="fia">FIA</label>
+
+      <input type="checkbox" name="fcia" id="fcia" value="fcia" />
+      <label for="fcia" name="fcia" id="fcia">FCIA</label>
+
+      <input type="checkbox" name="fiaa" id="fiaa" value="fiaa" />
+      <label for="fiaa" name="fiaa" id="fiaa">FIAA</label>
+
+      <input
+        type="checkbox"
+        name="financialEngineer"
+        id="financialEngineer"
+        value="financialEngineer"
+      />
+      <label
+        for="financialEngineer"
+        name="financialEngineer"
+        id="financialEngineer"
+        >Financial Engineer</label
+      >
+      <input type="checkbox" name="ms" id="ms" value="ms" />
+      <label for="ms" name="ms" id="ms">M.S.</label>
+      <input type="checkbox" name="phd" id="phd" value="phd" />
+      <label for="phd" name="phd" id="phd">Ph.D.</label>
+      <input
+        type="checkbox"
+        name="dataMining"
+        id="dataMining"
+        value="dataMining"
+      />
+      <label for="dataMining" name="dataMining" id="dataMining"
+        >Data Mining</label
+      >
+      <input type="checkbox" name="quant" id="quant" value="quant" />
+      <label for="quant" name="quant" id="quant">Quant</label>
+      <br /><br />
+      <label for="otherDesignations"><b>Other Designations: </b></label>
+      <input type="text" name="otherDesignations" id="otherDesignations" />
+      <br /><br />
+    </fieldset>
+
+    <br /><br />
+    <hr />
+    <br /><br />
+    <h2 align="center">Task 4</h2>
+    <table align="center" border="1" cellspacing="1" cellpadding="2">
+      <tr>
+        <th colspan="4">Resistration Form</th>
+      </tr>
+      <tr>
+        <td>Student Name</td>
+        <td>
+          <input
+            type="text"
+            name="firstName"
+            id="firstName"
+            placeholder="First Name"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            name="middleName"
+            id="middleName"
+            placeholder="Middle Name"
+          />
+        </td>
+        <td>
+          <input
+            type="text"
+            name="lastName"
+            id="lastName"
+            placeholder="Last Name"
+          />
+        </td>
+      </tr>
+
+      <tr>
+        <td>Father's Name</td>
+        <td>
+          <input
+            type="text"
+            name="fatherName"
+            id="fatherName"
+            placeholder="Father Name"
+          />
+        </td>
+        <td>Mother's Name</td>
+        <td>
+          <input
+            type="text"
+            name="motherName"
+            id="motherName"
+            placeholder="Mother Name"
+          />
+        </td>
+      </tr>
+
+      <tr>
+        <td>Date of Birth</td>
+        <td><input type="date" /></td>
+        <td>Gender</td>
+        <td>
+          Male<input
+            type="radio"
+            name="gender"
+            id="gender"
+            value="male"
+          />Female<input
+            type="radio"
+            name="gender"
+            id="gender"
+            value="female"
+          />
+        </td>
+      </tr>
+
+      <tr>
+        <td>Category</td>
+        <td>
+          Gen<input
+            type="radio"
+            name="category"
+            id="category"
+            value="gen"
+          />OBC<input
+            type="radio"
+            name="category"
+            id="category"
+            value="obc"
+          />SC/ST<input
+            type="radio"
+            name="category"
+            id="category"
+            value="scst"
+          />
+        </td>
+        <td>Handicapped</td>
+        <td>
+          Yes
+          <input
+            type="radio"
+            name="handicapped"
+            id="handicapped"
+            value="yes"
+          />No<input
+            type="radio"
+            name="handicapped"
+            id="handicapped"
+            value="no"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>Ex-Serviceman</td>
+        <td>
+          Yes
+          <input
+            type="radio"
+            name="exServiceman"
+            id="exServiceman"
+            value="yes"
+          />No<input
+            type="radio"
+            name="exServiceman"
+            id="exServiceman"
+            value="no"
+          />
+        </td>
+        <td>EWS</td>
+        <td>
+          Yes
+          <input type="radio" name="ews" id="ews" value="yes" />No<input
+            type="radio"
+            name="ews"
+            id="ews"
+            value="no"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>Email ID</td>
+        <td><input type="email" placeholder="abc@gmail.com" /></td>
+        <td>Mobile Number</td>
+        <td><input type="number" placeholder="+91 XXXXXXXXXX" /></td>
+      </tr>
+
+      <tr>
+        <td>State</td>
+        <td>
+          <select name="state" id="state">
+            <option value="selectAnyOne">Select any one</option>
+            <option value="madhyaPradesh">Madhya Pradesh</option>
+          </select>
+        </td>
+        <td>City</td>
+        <td>
+          <select name="city" id="city">
+            <option value="selectAnyOne">Select any one</option>
+            <option value="bhopal">Bhopal</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>Upload photo</td>
+        <td>
+          <input type="file" />
+        </td>
+        <td>Upload Signature</td>
+        <td><input type="file" /></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td align="center" colspan="3">
+          <input type="button" name="submit" id="submit" value="Submit" />
+        </td>
+      </tr>
+    </table>
+    <br /><br />
+    <hr />
+    <br /><br />
+    <h2 align="center">Task 5</h2>
+
+    <fieldset>
+      <h3 align="center">APPLICATION FORM</h3>
+      <fieldset>
+        <legend>Personal Details</legend>
+        <table border="2" cellspacing="2" cellpadding="2">
+          <tr>
+            <td>Applicant's Full Name</td>
+            <td></td>
+            <td>
+              <select name="" id="">
+                <option value="" value="">--Select--</option>
+                <option value="" value=""></option>
+                <option value="mr." value="mr.">Mr.</option>
+                <option value="mrs." value="mrs.">Mrs.</option>
+              </select>
+            </td>
+            <td>
+              <input
+                type="text"
+                name="applicantFullName"
+                placeholder="Enter the full name"
+              />
+            </td>
+            <td></td>
+            <td></td>
+            <td>Care Of</td>
+            <td>
+              Parents<input
+                type="radio"
+                name="careOf"
+                id="careOf"
+                value="careOf"
+              />Guardian<input
+                type="radio"
+                name="careOf"
+                id="careOf"
+                value="careOf"
+              />
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Father's Name</td>
+            <td></td>
+            <td>
+              <select name="" id="">
+                <option value="Mr.">Mr.</option>
+                <option value="Mrs.">Mrs.</option>
+              </select>
+            </td>
+            <td><input type="text" /></td>
+            <td></td>
+            <td></td>
+            <td>Mother's Name</td>
+            <td><input type="text" name="motherName" id="motherName" /></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><label for="gender">Gender</label></td>
+            <td></td>
+            <td>
+              Male<input type="radio" name="gender" id="gender" />Female<input
+                type="radio"
+                name="gender"
+                id="gender"
+              />Others<input type="radio" name="gender" id="gender" />
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Date of birth</td>
+            <td><input type="date" /></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Marital Status</td>
+            <td></td>
+            <td>
+              <select name="" id="">
+                <option value="">--Select--</option>
+              </select>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Category</td>
+            <td>
+              <select name="" id="">
+                <option value="">--Select--</option>
+              </select>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td><label for="handicapped">Handicapped</label></td>
+            <td></td>
+            <td>
+              Yes<input
+                type="radio"
+                name="handicapped"
+                id="handicapped"
+                value="yes"
+              />No<input
+                type="radio"
+                name="handicapped"
+                id="handicapped"
+                value="no"
+              />
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Ex-Serviceman</td>
+            <td>
+              Yes<input
+                type="radio"
+                name="handicapped"
+                id="handicapped"
+                value="yes"
+              />No<input
+                type="radio"
+                name="ex-Serviceman"
+                id="ex-Serviceman"
+                value="no"
+              />
+            </td>
+            <td></td>
+          </tr>
+        </table>
+      </fieldset>
+      <fieldset>
+        <legend>Contact Details</legend>
+        <table>
+          <tr>
+            <td>Mobile Number:</td>
+            <td></td>
+            <td><input type="number" /></td>
+            <td></td>
+            <td>Email ID:</td>
+            <td></td>
+            <td><input type="email" /></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Address Line1:</td>
+            <td></td>
+            <td><input type="text" /></td>
+            <td></td>
+            <td>Address Line2:</td>
+            <td></td>
+            <td><input type="text" /></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>City:</td>
+            <td></td>
+            <td><input type="text" /></td>
+            <td></td>
+            <td>State:</td>
+            <td></td>
+            <td>
+              <select name="" id="">
+                <option value="">--select--</option>
+              </select>
+            </td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Pin Code:</td>
+            <td></td>
+            <td><input type="number" /></td>
+          </tr>
+        </table>
+      </fieldset>
+      <fieldset>
+        <legend>Qualification Details</legend>
+        <table>
+          <tr>
+            <th>Sr.No.</th>
+            <td></td>
+            <th>Qualification</th>
+            <td></td>
+            <th>Passing Year</th>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+      </fieldset>
+      <fieldset>
+        <legend>Language Knowledge</legend>
+      </fieldset>
+      <fieldset>
+        <legend>Identification Details</legend>
+      </fieldset>
+    </fieldset>
+    <br /><br />
+    <br /><br />
+    <br /><br />
+    <br /><br />
+    <br /><br />
+    <br /><br />
+    <br /><br />
+    <br /><br />
   </body>
 </html>
