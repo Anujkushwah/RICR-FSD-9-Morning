@@ -1,0 +1,15 @@
+h3[video]{
+    display: flex;
+    border: 1px solid black;
+}
+
+
+
+
+.main-div{
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 100px;
+    width: 100px;
+    justify-content: space-evenly;
+}
