@@ -1,39 +1,50 @@
-*{
-    display: flexbox;
-    background-color: rgb(228, 255, 246);
-    margin: 0;
-    padding: 0;
-    justify-content:space-evenly;
+* {
+  background-color: rgb(228, 255, 246);
+  margin: 0;
+  padding: 0;
 }
 
-.division{
-    display:flex;
-    background-color: rgb(204, 239, 228);
+.division {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  background-color: rgb(204, 239, 228);
+  justify-content: space-evenly;
+  border: 1px solid black;
 }
 
-.btn-div{
-    background-color: rgb(94, 94, 144);
-    display: grid;
-    margin: auto;
-    padding: 10px;
-    border: 3px solid black;
-    border-radius: 5px;
+.menu-div {
+  display: grid;
+  height: 25px;
+  width: 100px;
+  margin: 5px;
+  padding: 5px;
+  background-color: rgb(204, 239, 228);
 }
 
-.menu-div{
-    display: inline-flex;
-    height: 25px;
-    width: 100px;
-    margin: 5px;
-    padding: 5px;
-    gap: 20px;
-    background-color: rgb(204, 239, 228);
+a {
+  margin: auto;
+  padding: auto;
+  background-color: rgb(204, 239, 228);
 }
 
-a{
-    margin: auto;
-    padding: auto;
-    background-color: rgb(204, 239, 228);
+.content-writing {
+  display: flex;
+  background-color: rgb(204, 239, 228);
 }
 
+.section1 {
+  display: grid;
+  height: 600px;
+  width: 10%;
+  background-color: rgb(204, 239, 228);
+  justify-content: first baseline;
+  border: 1px solid black;
+}
 
+.section2 {
+  display: grid;
+  height: 600px;
+  width: 90%;
+  background-color: rgb(204, 239, 228);
+  border: 1px solid black;
+}
