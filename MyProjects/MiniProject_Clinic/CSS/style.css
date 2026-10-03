@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+* {
+  margin: 0;
+}
+
+.head-outer-div {
+  background-color: #175cdd;
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+  gap: 800px;
+  align-items: center;
+  z-index: 997;
+
+  .head-inner-div {
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
+
+#head-menu {
+  font-family: "Lato", sans-serif;
+  display: flex;
+  padding: 30px;
+  justify-content: space-around;
+
+  #head-menu-company-name {
+    span {
+      font-size: xx-large;
+      font-weight: 600;
+      font-family: "Montserrat", sans-serif;
+    }
+  }
+
+  #head-menu-div2 {
+    a {
+      text-decoration: none;
+    }
+
+    ul {
+      display: flex;
+      list-style-type: none;
+      margin: 0;
+      padding: 5px;
+      justify-content: space-evenly;
+      gap: 30px;
+    }
+  }
+}
+
+#hero1 {
+  display: grid;
+  grid-column: auto;
+  .hero-section {
+    gap: 30px;
+    display: flex;
+    
+
+    .hero-section-top {
+      background-color: #175cdd2d;
+      border: 1px solid #175cdd2d;
+      border-radius: 30px;
+      align-items: center;
+      color: #175cdd;
+      padding: 10px;
+      justify-content: space-evenly;
+      font-family: "Roboto", sans-serif;
+    }
+
+    #hero1-image{
+      img{
+        position: fixed;
+        height: 500px;
+        width: 100vw;
+      }
+      
+      
+
+    }
+
+  }
+
+
+
+}
