@@ -68,6 +68,10 @@
     padding: 10px;
     gap: 35px;
 
+    a:hover {
+      color: #175ccd;
+    }
+
     .nav-iteams {
       display: flex;
       font-weight: 500;
@@ -93,6 +97,3 @@
     }
   }
 }
-
-
-

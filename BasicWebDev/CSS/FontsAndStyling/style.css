@@ -40,7 +40,7 @@ section {
 
 ul {
   margin-left: 30px;
-  list-style: "🚩  ";
+  list-style: "🤣  ";
 }
 
 #section2 {
@@ -86,7 +86,8 @@ ul {
     font-weight: 800;
     font-variant-caps: all-petite-caps;
   }
-  td, th {
+  td,
+  th {
     border: 1px solid #000;
     padding: 3px 6px;
   }
@@ -102,6 +103,10 @@ ul {
   tbody tr:nth-child(odd) {
     background-color: #b0e5f8;
   }
+
+  tbody tr:nth-child(3){
+ background-color: #ff8000;
+  }
 }
 
 footer {
@@ -113,8 +118,6 @@ footer {
 
 #lorem-paragraph {
   line-height: 30px;
-  word-spacing: 10px;
-  letter-spacing: 2px;
+  word-spacing: 20px;
+  letter-spacing: 10px;
 }
-
-
