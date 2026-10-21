@@ -5,18 +5,16 @@ const abc = (a, b) => {
 };
 
 let result = abc(5, 3);
-
 console.log(result);
 
 const abc2 = (a, b) => {
   let c = a + b;
   console.log(c);
 };
-
 abc2(3, 6);
 
-//Call Back Function
 
+//Call Back Function
 function sum(a, b) {
   let x = a * a;
   let y = b * b;
@@ -59,7 +57,6 @@ console.log(greet1);
 greet1();
 
 //closure
-
 function outer() {
   let message = "Hello, Students!";
 
@@ -71,5 +68,4 @@ function outer() {
 }
 
 const greet = outer();
-
 greet();
