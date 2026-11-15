@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2 ondblclick="doubleClick()">Welcome to the Student Portal</h2>
+    <p>View your course information here.</p>
+
+    <br>
+    <button onclick="alert('Hello, Student!')">Click Me</button>
+    <br>
+
+    <br>
+    <button onclick="showMessage()">Show Message</button>
+    <br>
+
+    <br>
+    <button onclick="singleClick()">Click</button>
+    <br>
+
+    <br>
+    <button ondblclick="doubleClick()">Dubble Click</button>
+    <br>
+
+    <br>
+    <button onmousedown="mouseDown()">Mouse Down</button>
+    <br>
+
+    <br>
+    <button onmouseup="mouseUp()">Mouse Up</button>
+    <br>
+
+    <br>
+    <button onmouseover="mouseOver()">Mouse Over</button>
+    <br>
+
+    <br>
+    <button onmouseout="mouseOut()">Mouse Out</button>
+    <br>
+
+    <br>
+    <button onmousemove="mouseMoves()">Mouse Moves</button>
+    <br>
+
+    <br>
+    <hr>
+    <br>
+    <p onmouseover="this.textContent='Pointer is over the text!'"
+        onmouseout="this.textContent='Move your pointer here.'">
+        Move your pointer here.
+    </p>
+    <hr>
+    <br>
+    <br>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+<script>
+    function showMessage() {
+        alert("Welcome to the course!");
+    }
+
+</script>
+
+</html>

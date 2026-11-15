@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- keydown example -->
+    <p id="message">Press a key while focused on the box.</p>
+
+    <input type="text" onkeydown="document.getElementById('message').textContent =
+    'A key was pressed!'">
+
+
+
+    <!-- keyup example -->
+    <p id="status">Release a key after pressing it.</p>
+
+    <input type="text" onkeyup="document.getElementById('status').textContent =
+    'The key was released!'">
+
+
+    
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
